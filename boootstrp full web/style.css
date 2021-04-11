@@ -1,0 +1,243 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.bannre-img{
+    width: 50px;
+    height: auto;
+}
+.navernav{
+    padding: initial;
+
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index:100 ;
+    background: #fff;
+}
+.navbar{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.appmpm{
+    font-weight: 500;
+    font-size: 25px;
+}
+.btnoutline{
+    font-weight: 700;
+    font-weight: bold;
+    border: groove;
+}
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.bannerr{
+    margin-bottom: 30px;
+
+}
+.input-section{
+    padding: 16px;
+}
+.button-section{
+    padding: 13px;
+    font-weight: 600;
+}
+.heding-section{
+    margin-bottom: 45px;
+}
+.card-wrepar{
+    font-size: 18px;
+    font-weight: 300;
+}
+.card-pont{
+    font-size: 3.5rem;
+}
+.img-slider{
+    width: 397px;
+    height: auto;
+}
+.sliderr-section{
+    margin-top: 150px;
+}
+.letarre{
+    line-height: 37px;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.worker{
+    font-size: 20px;
+    font-weight: 300;
+}
+.serice{
+    width: 100%;
+    height: auto;
+}
+.feture-item{
+    height: 300px;
+}
+.left-img-sec img{
+    width: auto;
+    height: 100%;
+    position: relative;
+    left: -80px;
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+
+}
+.right-img-sec{
+    width: 60%;
+    padding: 25px;
+}
+.img-section img{
+    left: 10px;
+}
+.img-seckendery img{
+    left: -133px;
+}
+.banner-sectionn img{
+    width: 100%;
+    height: auto;
+}
+.banner-sectionn{}
+.banner-sectionn a{
+    position: relative;
+    display: block;
+}
+.banner-sectionn a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(34, 49, 110, 0.678);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.banner-sectionn:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+.contante{
+    font-size: 50px;
+    font-weight: 700;
+}
+.card{
+    border: none;
+    padding: 20px;
+    margin-right: -11px;
+
+}
+.app-plany h1{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.app-plany p{
+    
+    font-weight: 300;
+    font-size: 20px;
+}
+.prising-iteml{
+    padding: 50px;
+}
+.prising-iteml ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.prising-iteml ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.prising-iteml ul li span{
+    color: rgb(25, 23, 148);
+    font-size: 25px;
+    width: 40px;
+    display: inline-block;
+}
+.rrrr{
+    width: 74%;
+    margin: auto;
+}
+.btn-section{
+    margin-bottom: -24px;
+    
+    position: relative;
+    top: 36px;
+}
+.rounded-circle{
+    width: 60px;
+    
+}
+.img-contente{
+    width: 25%;
+    margin: auto;
+    padding: 44px;
+}
+.contac-leble{
+    font-weight: bold;
+}
+.contack-form{
+    font-weight: 200;
+}
+.btn-grope{
+
+}
+
+.btn-grope button:hover{
+    background: #000;
+ }
+.btn-slider:hover{
+    background:rgb(38, 104, 38);
+    color: white;
+}
+.btn-slider{
+    border: 1px solid rgb(38, 104, 38);
+    color:rgb(38, 104, 38); 
+    font-weight: bold;
+    font-size: 25px;
+}
+.btn-secken:hover{
+    background: #000;
+}
+.btn-secken{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.img-section-glary{
+    width: 88%;
+}
+.img-section-glary img{
+    width: 50%;
+    margin-right: -147px;
+   
+}
+.footer-section{
+    margin-top: 50px;
+}
+.my-about{
+    text-decoration: none;
+}
